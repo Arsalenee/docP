@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+header {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+#logo {
+  
+    width: 268px;
+    height: 33px;
+  }
+  .drop-menu {
+    display: none;
+    cursor: pointer;
+    position:absolute;
+  }
+body {
+    font-family: sans-serif;
+    color: #252525;
+}
+a {
+    color: #252525;
+    text-decoration: none;
+}
+
+.active {
+    color: #5dc6b0;
+}
+.docplanner-header {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px;
+    
+}
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introduction-title {
+    color: #5dc6b0;
+}
+.introduction-text {
+    display: flex;
+    gap: 2rem;
+    width: 1015px;
+    margin: 0 auto;
+    .p {
+        font-family: Roboto, arial, sans-serif;
+        color: #747474;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1015px;
+    margin: 0 auto;
+    gap: 20px;
+   
+}
+.service-card {
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+.service-card-patients {
+
+    background-color: #5dc6b0;
+}
+.service-card-doctors {
+    background-color: #4293db;
+
+}
+.service-card-clinics {
+    background-color: #1b2734;
+}
+.company-logos {
+    display: flex;
+   
+    width: 1015px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.h1 {
+    color: #00b39b;
+ 
+}
+.stats {
+    background-color: #e5faf8;
+    background-image: url(https://www.docplanner.com/img/logo.png);
+    background-repeat: no-repeat;
+    background-position-y: 300px;
+    height: 600px;
+    background-position-x: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+  }
+  .stats > div {
+    display: flex;
+    width: 1015px;
+    margin: 0 auto;
+    gap: 50px;
+  }
+  .title h1 {
+    color: #00b39b;
+    font-family: "work sans", arial;
+  }
+  .title p{
+    color: #747474;
+    font-family: "work sans", arial;
+    
+    
+  }
+  .logos{
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .logos div{
+    text-align: center;
+    height: 250px;
+    width: 229px;
+    padding: 15px;
+    background-color: white;
+  }
